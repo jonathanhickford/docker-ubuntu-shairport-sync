@@ -1,0 +1,11 @@
+# Vim
+*.swp
+
+# Logs
+*.log
+
+# Folders
+node_modules
+
+*.sublime-project
+*.sublime-workspace
