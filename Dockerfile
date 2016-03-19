@@ -11,6 +11,7 @@ libavahi-client-dev \
 libdaemon-dev \ 
 libpopt-dev \
 libssl-dev \
+libconfig-dev \
 libtool \
 supervisor 
 
