@@ -31,6 +31,7 @@ RUN mkdir -p /var/log/supervisor /var/run/dbus && \
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+ENV SPEAKER_NAME=Shairport
 EXPOSE 5353 5000
 
 CMD ["supervisord"]
